@@ -12,7 +12,7 @@ general = pk.load(open('dic_general.pkl','rb'))
 special = pk.load(open('dic.pkl','rb'))
 
 # Title
-st.title('Used Cars Price Predictor')
+st.title('Used Cars Price Predictor (Trained on Dataset of upto Oct 2021')
 
 # Take Inputs
 make = st.selectbox('Make', general['brands'])
